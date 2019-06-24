@@ -1,11 +1,11 @@
-a=[0,2,3,0,4,6,0,7,10]
+numbers=[0,2,3,0,4,6,0,7,10]
 i=0
-while i < len(a):
-    if a[i]==0:
-        b=a.pop(i)
-        a.append(b)
+while i < len(numbers):
+    if numbers[i]==0:
+        b=numbers.pop(i)
+        numbers.append(b)
     i=i+1
-print a
+print numbers
     
     
 
